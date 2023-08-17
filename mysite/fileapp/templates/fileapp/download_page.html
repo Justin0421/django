@@ -1,0 +1,5 @@
+{% for filename in file_list %}
+    <a href="{% url 'download_file' filename %}">{{ filename }}</a><br>
+{% empty %}
+    <p>No files available.</p>
+{% endfor %}

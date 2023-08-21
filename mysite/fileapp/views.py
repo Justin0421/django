@@ -89,3 +89,5 @@ class FileFieldFormView(FormView):
            handle_uploaded_file(f)  # Do something with each file.
         # return super().form_valid()
         return HttpResponse('多文件上传成功！')
+    
+    # 测试
